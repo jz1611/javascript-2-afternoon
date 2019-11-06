@@ -28,21 +28,30 @@ alert(me.name);
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+var favoriteThings = {
+  band: 'Day Wave',
+  food: 'rice',
+  person: 'Molly',
+  book: 'Into the Wild',
+  movie: 'Lord of the Rings',
+  holiday: 'Christmas'
+};
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = '4Runner';
+favoriteThings['brand'] = 'REI';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = 'Chicken Nuggets';
+faoriteThings['book'] = 'Harry Potter';
 
 ////////// PROBLEM 3 //////////
 
